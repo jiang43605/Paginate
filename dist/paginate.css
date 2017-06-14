@@ -1,0 +1,59 @@
+﻿.tab {
+    display: flex;
+}
+
+.tabFlag {
+    font-weight: bold;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.tabNext {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-right: 1px solid #e1e4e8 !important;
+}
+
+.tabFlag:hover {
+    background-color: #e7e7e7;
+    border-color: #e1e4e8;
+}
+
+.tabItem {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 7px 12px;
+    color: #0366d6;
+    flex-flow: nowrap;
+    border-right: none;
+    border-left: 1px solid #e1e4e8;
+    border-top: 1px solid #e1e4e8;
+    border-bottom: 1px solid #e1e4e8;
+    margin-left: 0px;
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+    .tabItem:hover {
+        background-color: #e7e7e7;
+        border-color: #e1e4e8;
+    }
+
+.disable, .disable:hover {
+    color: #d3d3d3;
+    cursor: default;
+    background-color: #fafbfc;
+}
+
+.tabClick, .tabClick:hover {
+    background-color: #0366d6;
+    border-color: #0366d6;
+    color: #fff;
+}
