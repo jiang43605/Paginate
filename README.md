@@ -1,2 +1,4 @@
+![](https://travis-ci.org/jiang43605/Paginate.svg?branch=master)
+
 # Paginate
-for web paginate control
+> a web paginate control, use bootstarp style
