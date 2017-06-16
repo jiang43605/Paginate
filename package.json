@@ -1,5 +1,5 @@
 {
-  "name": "paginate",
+  "name": "web-paginate",
   "version": "1.0.0",
   "description": "paginate control",
   "main": "webpack.config.js",
