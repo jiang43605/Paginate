@@ -1,6 +1,6 @@
 {
   "name": "web-paginate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "paginate control",
   "main": "webpack.config.js",
   "dependencies": {},
