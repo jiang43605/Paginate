@@ -83,7 +83,7 @@ var options = {
 2. use ajax data
 ```js
 var options = {
-    ajax: null,                         // set ajax link
+    ajax: 'http://localhost/demo?pageindex={num}&pagecount={count}',   // set ajax link, {num} means current select index, {count} equals itemsCount
     ajaxMethod: 'GET',                  // request method
     ajaxData: null,                     // request data, support object
     ajaxTotalPagesName: 'totalPages',   // in ajax return value, which key specify the totalPages
