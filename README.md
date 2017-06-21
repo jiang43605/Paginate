@@ -102,7 +102,14 @@ var options = {
         // index: current page number
         // options: current options
         // callBack: when you get the data, please invoke it as: callBack(data)
+       
         // http: the tool for ajax
+        // use like: 
+        var promiseHttp = http(method:string, url:string, data:string|object, header:object);
+        promiseHttp.then(function(data){}); // when succes
+        promiseHttp.fail(function(msg){});  // when fail
+
+        // or you can use other ajax tool, like jQuery.ajax
     }
 };
 ```
